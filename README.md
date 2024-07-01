@@ -15,20 +15,20 @@ Setup
 Clone the repository:
 
 bash
-Copy code
+
 git clone <repository-url>
 cd fastapi-transcription-service
 Install dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 Set up environment variables:
 
 Create a .env file in the root directory with the following:
 
 makefile
-Copy code
+
 DATABASE_URL=<mongodb-uri>
 DG_API_KEY=<deepgram-api-key>
 Replace <mongodb-uri> with your MongoDB connection URI and <deepgram-api-key> with your Deepgram API key.
@@ -36,7 +36,7 @@ Replace <mongodb-uri> with your MongoDB connection URI and <deepgram-api-key> wi
 Run the application:
 
 bash
-Copy code
+
 uvicorn main:app --reload
 The API will start running locally at http://localhost:8000.
 
