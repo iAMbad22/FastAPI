@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+pyjwt
+authlib
+pymongo
+psycopg2-binary
+pydub
+requests
+python-dotenv
